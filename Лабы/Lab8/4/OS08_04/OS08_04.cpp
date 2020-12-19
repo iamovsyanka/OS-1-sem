@@ -56,7 +56,7 @@ DWORD GetParentPid() {
 		if (hSnapshot != INVALID_HANDLE_VALUE) CloseHandle(hSnapshot);
 	}
 
-	return pid;
+	return ppid;
 }
 
 DWORD ChildThread() {
